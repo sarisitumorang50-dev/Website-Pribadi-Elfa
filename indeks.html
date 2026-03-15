@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Pribadi Elfa</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#4f8fcf,#6fa8dc,#9cc3e6);
+min-height:100vh;
+text-align:center;
+color:white;
+}
+
+/* HEADER */
+
+header{
+padding:60px 20px 30px;
+}
+
+.profile-img{
+width:160px;
+height:160px;
+border-radius:50%;
+border:5px solid white;
+object-fit:cover;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+transition:0.4s;
+}
+
+.profile-img:hover{
+transform:scale(1.05);
+}
+
+h1{
+margin-top:15px;
+font-size:28px;
+}
+
+header p{
+opacity:0.9;
+margin-top:5px;
+}
+
+/* CARD SECTION */
+
+section{
+background:white;
+color:#333;
+padding:35px;
+border-radius:20px;
+width:85%;
+max-width:750px;
+margin:25px auto;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+section:hover{
+transform:translateY(-5px);
+}
+
+h2{
+margin-bottom:15px;
+color:#1b92dc;
+}
+
+/* SOCIAL */
+
+a{
+text-decoration:none;
+color:#0fa4df;
+font-weight:bold;
+margin:0 10px;
+transition:0.3s;
+}
+
+a:hover{
+color:#10c5ea;
+}
+
+/* BUTTON */
+
+button{
+margin-top:15px;
+padding:12px 28px;
+border:none;
+border-radius:30px;
+background:linear-gradient(45deg,#0e9cde,#0960d2);
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+
+footer{
+margin-top:30px;
+padding:20px;
+font-size:14px;
+opacity:0.9;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:600px){
+
+.profile-img{
+width:130px;
+height:130px;
+}
+
+section{
+width:92%;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="profil.jpeg" class="profile-img" alt="Foto Profil">
+
+<h1>Halo, Saya Elfa Rut Sari Situmorang</h1>
+<p>Selamat datang di website pribadi saya</p>
+
+</header>
+<section>
+
+<h2>Tentang Saya</h2>
+
+<p>
+Saya kuliah di IAKN Tarutung Program Studi Teknologi Informasi.
+Saat ini saya berada di Semester 4 dan memiliki minat dalam dunia teknologi, pemrograman, dan pengembangan website.
+</p>
+
+</section>
+
+<section>
+
+<h2>Media Sosial</h2>
+
+<p>
+
+<a href="https://www.instagram.com/elfa_rss" target="_blank">Instagram</a> |
+
+<a href="https://www.tiktok.com/@elfarss00" target="_blank">TikTok</a> |
+
+<a href="https://youtube.com/@elfarutsitumorang7212" target="_blank">YouTube</a>
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Kontak</h2>
+
+<p>
+Email:
+<a href="mailto:sarisitumorang50@gmail.com">
+sarisitumorang50@gmail.com
+</a>
+</p>
+
+<br>
+
+<a href="mailto:sarisitumorang50@gmail.com">
+<button>Kirim Email</button>
+</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 Website Elfa Rut Sari Situmorang</p>
+
+</footer>
+
+</body>
+</html>
